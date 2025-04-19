@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at center, #1a1a1a 0%, #000000 100%);
+  overflow: hidden;
+}
+#logo {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+#logo img {
+  width: 180px;
+  opacity: 0.7;
+}
+canvas {
+  display: block;
+}
